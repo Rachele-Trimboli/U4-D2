@@ -16,12 +16,8 @@ public class Esercizio3 {
     }
 
     public static void stringaSplit(String str){
-        if (Objects.equals(str, ":q")){
-
-            System.out.println("Hai inserito :q che è un carattere non ammesso");
-        }else{
-            String[] parts =  str.split("");
-            System.out.println(Arrays.toString(parts));
+        while(!Objects.equals(str, ":q")){
+            System.out.println(Arrays.toString(str.split("")));
         }
 
     }
