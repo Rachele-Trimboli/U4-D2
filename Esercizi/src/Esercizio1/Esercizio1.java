@@ -15,6 +15,8 @@ public class Esercizio1 {
         int anno = Integer.parseInt(scanner.nextLine());
         annoBisestile(anno);
 
+        scanner.close();
+
     }
 
     public static void pariDispari(String str){
